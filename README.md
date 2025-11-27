@@ -1,17 +1,15 @@
-# Notice
+# Info
+BullMQ를 사용한 내부 스케줄링 워커 구현
 
-Job : Queue : Worker 비율을 N : M : M 으로 설정
+[관련 포스팅](https://koy-blog.vercel.app/backend/006-nodejs-bullmq-worker)
+<br />
+<br />
+<br />
 
 # Installation
-
-config.example.yml 을 참고하여 config 설정 후 아래 실행
-
 ```
-npm install && npm run build
-```
-
-# How to Run
-
-```
-npm run start-dev
+1. DB 접속 및 /db/schema.sql 실행
+2. config.example.yml 을 참고하여 config.yml 파일 생성
+3. npm install && npm run build
+4. npm run start:dev
 ```
